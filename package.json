@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -32,6 +33,21 @@
     "Diff",
     "Patch"
   ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "8.9.0"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
   "repository": {
     "url": "git@github.com:iTonyYo/flatten-folder.git",
     "type": "git"
@@ -49,5 +65,18 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chalk": "^2.4.2",
+    "cross-env": "^5.2.1",
+    "execa": "^2.0.4",
+    "fast-glob": "^3.0.4",
+    "p-map": "^3.0.0",
+    "trash": "^6.0.0"
   }
 }
