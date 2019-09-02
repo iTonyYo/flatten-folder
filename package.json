@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
     "lint": "npx eslint --cache .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_ENV=test npx babel-node ./scripts/test",
+    "coverage": "npx nyc report --reporter=text-lcov | npx coveralls"
   },
   "engines": {
     "node": ">=8.9.0"
@@ -79,6 +80,38 @@
     ".vscode/**",
     "scripts/**"
   ],
+  "mocha": {
+    "extension": [
+      "js"
+    ],
+    "timeout": 120000,
+    "ui": "tdd",
+    "color": true,
+    "delay": true,
+    "fullStackTrace": true,
+    "checkLeaks": true,
+    "retries": 2
+  },
+  "nyc": {
+    "all": true,
+    "check-coverage": false,
+    "per-file": true,
+    "reporter": [
+      "html"
+    ],
+    "report-dir": "./docs/coverage",
+    "cache": false,
+    "exclude": [
+      "lib/**",
+      "esm/**",
+      "benchmark/**",
+      "docs/**",
+      "scripts/**",
+      "**/*.test.js"
+    ],
+    "skip-empty": true,
+    "clean": true
+  },
   "repository": {
     "url": "git@github.com:iTonyYo/flatten-folder.git",
     "type": "git"
@@ -104,13 +137,17 @@
     "@babel/preset-env": "^7.5.5",
     "babel-eslint": "^10.0.3",
     "babel-plugin-add-module-exports": "^1.0.2",
+    "chai": "^4.2.0",
     "chalk": "^2.4.2",
+    "coveralls": "^3.0.6",
     "cross-env": "^5.2.1",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "execa": "^2.0.4",
     "fast-glob": "^3.0.4",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
     "p-map": "^3.0.0",
     "trash": "^6.0.0"
   }
