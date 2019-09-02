@@ -1,0 +1,53 @@
+{
+  "name": "flatten-folder",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "author": {
+    "name": "iyowei",
+    "email": "swzyocowboy@icloud.com",
+    "url": "https://github.com/iTonyYo"
+  },
+  "license": "MIT",
+  "git": {
+    "core.editor": "code"
+  },
+  "gitignore": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "Node",
+    "VisualStudioCode",
+    "SublimeText",
+    "CVS",
+    "Diff",
+    "Vim",
+    "TortoiseGit",
+    "Diff",
+    "Patch"
+  ],
+  "repository": {
+    "url": "git@github.com:iTonyYo/flatten-folder.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/iTonyYo/flatten-folder",
+  "bugs": "https://github.com/iTonyYo/flatten-folder/issues",
+  "private": false,
+  "keywords": [
+    "flatdir",
+    "dir",
+    "folder",
+    "文件夹",
+    "nodejs",
+    "扁平化"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
