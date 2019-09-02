@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
+    "lint": "npx eslint --cache .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -48,6 +49,36 @@
       "add-module-exports"
     ]
   },
+  "eslintConfig": {
+    "globals": {
+      "test": true,
+      "suite": true,
+      "run": true,
+      "require": true,
+      "process": true,
+      "module": true
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "airbnb-base"
+    ],
+    "parser": "babel-eslint",
+    "rules": {}
+  },
+  "eslintIgnore": [
+    "benchmark/**",
+    "docs/**",
+    "*-test.js",
+    "esm/**",
+    "lib/**",
+    ".github/**",
+    ".vscode/**",
+    "scripts/**"
+  ],
   "repository": {
     "url": "git@github.com:iTonyYo/flatten-folder.git",
     "type": "git"
@@ -71,9 +102,13 @@
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.3",
     "babel-plugin-add-module-exports": "^1.0.2",
     "chalk": "^2.4.2",
     "cross-env": "^5.2.1",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "execa": "^2.0.4",
     "fast-glob": "^3.0.4",
     "p-map": "^3.0.0",
