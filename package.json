@@ -161,6 +161,7 @@
     "execa": "^2.0.4",
     "fast-glob": "^3.0.4",
     "license-checker": "^25.0.1",
+    "listr": "^0.14.3",
     "make-dir": "^3.0.0",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1",
