@@ -234,7 +234,7 @@
 "flat-cache@2.0.1","MIT","https://github.com/royriojas/flat-cache"
 "flat@4.1.0","BSD-3-Clause","https://github.com/hughsk/flat"
 "flatted@2.0.1","ISC","https://github.com/WebReflection/flatted"
-"flatten-folder@1.0.1","MIT","https://github.com/iTonyYo/flatten-folder"
+"flatten-folder@1.0.2","MIT","https://github.com/iTonyYo/flatten-folder"
 "foreground-child@1.5.6","ISC","https://github.com/tapjs/foreground-child"
 "forever-agent@0.6.1","Apache-2.0","https://github.com/mikeal/forever-agent"
 "form-data@2.3.3","MIT","https://github.com/form-data/form-data"

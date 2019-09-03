@@ -1,9 +1,15 @@
 # [`flatten-folder`][flatten-folder] 更新日志
 
+## [v1.0.2](https://github.com/iTonyYo/flatten-folder/compare/v1.0.1...v1.0.2) - 2019-09-03
+
+#### 提交
+
+- [[`519d272`](https://github.com/iTonyYo/flatten-folder/commit/519d2720baaae93a061f1d9151ef4b4eccc33dcb)] 文档: :memo: 关联 `iTonyYo/flatten-folder-cli` 项目
 ## [v1.0.1](https://github.com/iTonyYo/flatten-folder/compare/v1.0.0...v1.0.1) - 2019-09-03
 
 #### 提交
 
+- [[`4817daf`](https://github.com/iTonyYo/flatten-folder/commit/4817daf98c0d474138c2b1922f7e367fc17d9196)] 发版: :bookmark: v1.0.1
 - [[`f0f1081`](https://github.com/iTonyYo/flatten-folder/commit/f0f1081f1467acc317b4c4e9598aa4cd907078b1)] 配置: :wrench: 填充 `description` 字段
 ## v1.0.0 - 2019-09-03
 
