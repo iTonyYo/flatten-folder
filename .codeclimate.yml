@@ -24,6 +24,7 @@ exclude_patterns:
 - "LICENSE.md"
 - "package.json"
 - "README.md"
-- "package-lock.lock"
+- "package-lock.json"
 - "yarn.lock"
 - ".mailmap"
+- ".travis.yml"
