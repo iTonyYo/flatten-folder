@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
     "lint": "npx eslint --cache .",
+    "license": "npx babel-node ./scripts/license",
     "test": "cross-env NODE_ENV=test npx babel-node ./scripts/test",
     "coverage": "npx nyc report --reporter=text-lcov | npx coveralls",
     "changelog": "npx auto-changelog -p"
