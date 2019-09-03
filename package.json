@@ -2,7 +2,10 @@
   "name": "flatten-folder",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "main": "lib/flattenFolder.js",
   "scripts": {
     "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
     "lint": "npx eslint --cache .",
@@ -61,7 +64,10 @@
       "run": true,
       "require": true,
       "process": true,
-      "module": true
+      "module": true,
+      "setup": true,
+      "suiteSetup": true,
+      "suiteTeardown": true
     },
     "env": {
       "node": true,
@@ -154,6 +160,7 @@
     "chai": "^4.2.0",
     "chalk": "^2.4.2",
     "coveralls": "^3.0.6",
+    "cpy": "^7.3.0",
     "cross-env": "^5.2.1",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -166,7 +173,12 @@
     "mocha": "^6.2.0",
     "nyc": "^14.1.1",
     "p-map": "^3.0.0",
-    "trash": "^6.0.0",
     "write-file-atomic": "^3.0.0"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "deep-scan-dir": "^1.0.2",
+    "move-file": "^1.2.0",
+    "trash": "^6.0.0"
   }
 }
