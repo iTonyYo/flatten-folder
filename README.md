@@ -4,6 +4,14 @@
 
 递归扁平化指定文件夹内所有文件。
 
+## 目录
+
+- [安装](#安装)
+- [flattenFolder({from, to, exclude})](#flattenfolderfrom-to-exclude)
+- [相关](#相关)
+- [贡献指南](#贡献指南)
+- [证书](#证书)
+
 ## 安装
 
 ```shell
@@ -42,6 +50,9 @@ import flattenFolder from 'flatten-folder';
 })();
 ```
 
+## 相关
+- [`flatten-folder-cli`][flatten-folder-cli] - 在终端里，递归扁平化指定文件夹内所有文件，😋。
+
 ## 贡献指南
 
 仔细查阅 [CONTRIBUTING.md][贡献指南] 以了解详情。
@@ -57,3 +68,4 @@ import flattenFolder from 'flatten-folder';
 
 
 [flatten-folder]: https://github.com/iTonyYo/flatten-folder
+[flatten-folder-cli]: https://github.com/iTonyYo/flatten-folder-cli
