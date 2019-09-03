@@ -7,7 +7,8 @@
     "build": "npx babel-node ./scripts/clean-built && cross-env NODE_ENV=production npx babel-node ./scripts/build",
     "lint": "npx eslint --cache .",
     "test": "cross-env NODE_ENV=test npx babel-node ./scripts/test",
-    "coverage": "npx nyc report --reporter=text-lcov | npx coveralls"
+    "coverage": "npx nyc report --reporter=text-lcov | npx coveralls",
+    "changelog": "npx auto-changelog -p"
   },
   "engines": {
     "node": ">=8.9.0"
@@ -112,6 +113,15 @@
     "skip-empty": true,
     "clean": true
   },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "changelog-template.hbs",
+    "unreleased": true,
+    "commitLimit": false,
+    "includeBranch": [
+      "master"
+    ]
+  },
   "repository": {
     "url": "git@github.com:iTonyYo/flatten-folder.git",
     "type": "git"
@@ -135,6 +145,7 @@
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "auto-changelog": "^1.16.0",
     "babel-eslint": "^10.0.3",
     "babel-plugin-add-module-exports": "^1.0.2",
     "chai": "^4.2.0",
