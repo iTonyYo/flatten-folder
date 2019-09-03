@@ -78,7 +78,9 @@
       "airbnb-base"
     ],
     "parser": "babel-eslint",
-    "rules": {}
+    "rules": {
+      "no-use-before-define": 0
+    }
   },
   "eslintIgnore": [
     "benchmark/**",
@@ -90,6 +92,17 @@
     ".vscode/**",
     "scripts/**"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "npx eslint --cache",
+      "npm run test"
+    ]
+  },
   "mocha": {
     "extension": [
       "js"
@@ -167,7 +180,9 @@
     "eslint-plugin-import": "^2.18.2",
     "execa": "^2.0.4",
     "fast-glob": "^3.0.4",
+    "husky": "^3.0.5",
     "license-checker": "^25.0.1",
+    "lint-staged": "^9.2.5",
     "listr": "^0.14.3",
     "make-dir": "^3.0.0",
     "mocha": "^6.2.0",
