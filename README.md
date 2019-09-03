@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/60a65a826cc523425518/maintainability)](https://codeclimate.com/github/iTonyYo/flatten-folder/maintainability) [![Known Vulnerabilities](https://snyk.io/test/github/itonyyo/flatten-folder/badge.svg)](https://snyk.io/test/github/itonyyo/flatten-folder) [![Build Status](https://travis-ci.org/iTonyYo/flatten-folder.svg?branch=master)](https://travis-ci.org/iTonyYo/flatten-folder) [![Coverage Status](https://coveralls.io/repos/github/iTonyYo/flatten-folder/badge.svg?branch=master)](https://coveralls.io/github/iTonyYo/flatten-folder?branch=master)
+
 # flatten-folder
 
 递归扁平化指定文件夹内所有文件。
