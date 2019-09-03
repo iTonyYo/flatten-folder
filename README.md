@@ -14,6 +14,34 @@ $ npm i flatten-folder
 $ yarn add flatten-folder
 ```
 
+## flattenFolder({from, to, exclude})
+
+- `from` {String} 目标文件夹，**默认：** `./`
+- `to` {String} 结果文件夹，**默认：** `./`
+- `exclude` {Object}
+  - `dirs` {Array} 被操作的文件夹
+  - `files` {Array} 被操作的文件
+
+**使用**
+
+```javascript
+import { realpathSync } from 'fs';
+import flattenFolder from 'flatten-folder';
+
+(async () => {
+  const from = realpathSync(process.cwd());
+  const to = from;
+
+  const { dirs, files } = await flattenFolder({
+    from,
+    to,
+    exclude: {
+      dir: ['scripts', 'src'],
+    },
+  });
+})();
+```
+
 ## 贡献指南
 
 仔细查阅 [CONTRIBUTING.md][贡献指南] 以了解详情。
