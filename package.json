@@ -14,7 +14,8 @@
     "license": "npx babel-node ./scripts/license",
     "test": "cross-env NODE_ENV=test npx babel-node ./scripts/test",
     "coverage": "npx nyc report --reporter=text-lcov | npx coveralls",
-    "changelog": "npx auto-changelog -p"
+    "changelog": "npx auto-changelog -p",
+    "prepublish": "npx snyk protect"
   },
   "engines": {
     "node": ">=8.9.0"
@@ -194,6 +195,7 @@
     "async": "^3.1.0",
     "deep-scan-dir": "^1.0.2",
     "move-file": "^1.2.0",
+    "snyk": "^1.223.0",
     "trash": "^6.0.0"
   }
 }
