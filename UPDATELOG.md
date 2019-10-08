@@ -6,17 +6,16 @@
 
 - [[`bb9a1e4`](https://github.com/iTonyYo/flatten-folder/commit/bb9a1e47e4f600c9be7bab3cac74fe6593a4ca52)] 依赖: :arrow_up: 升级依赖
 - [[`2d2b498`](https://github.com/iTonyYo/flatten-folder/commit/2d2b49874f8cbc3767d3f1906595bbbee0c168b1)] 依赖: :arrow_up: 升级依赖
+- [[`90ee2a7`](https://github.com/iTonyYo/flatten-folder/commit/90ee2a7086c4b2e4ca9e2895a19eab4ec948167e)] 依赖: :arrow_up: 升级依赖
 ## [v1.0.2](https://github.com/iTonyYo/flatten-folder/compare/v1.0.1...v1.0.2) - 2019-09-03
 
 #### 提交
 
-- [[`8d185cd`](https://github.com/iTonyYo/flatten-folder/commit/8d185cd702181df8bd6c780cd927615f4de0c544)] 发版: :bookmark: v1.0.2
 - [[`519d272`](https://github.com/iTonyYo/flatten-folder/commit/519d2720baaae93a061f1d9151ef4b4eccc33dcb)] 文档: :memo: 关联 `iTonyYo/flatten-folder-cli` 项目
 ## [v1.0.1](https://github.com/iTonyYo/flatten-folder/compare/v1.0.0...v1.0.1) - 2019-09-03
 
 #### 提交
 
-- [[`4817daf`](https://github.com/iTonyYo/flatten-folder/commit/4817daf98c0d474138c2b1922f7e367fc17d9196)] 发版: :bookmark: v1.0.1
 - [[`f0f1081`](https://github.com/iTonyYo/flatten-folder/commit/f0f1081f1467acc317b4c4e9598aa4cd907078b1)] 配置: :wrench: 填充 `description` 字段
 ## v1.0.0 - 2019-09-03
 
@@ -34,7 +33,6 @@
 - [[`a14556f`](https://github.com/iTonyYo/flatten-folder/commit/a14556f426c83416be712cbf24fdc6a161a0c8fc)] 配置: :wrench: 初始化更新日志生成环境
 - [[`ff243da`](https://github.com/iTonyYo/flatten-folder/commit/ff243da5ea55427487ad7f5cad96c105afa0dcd8)] 配置: :wrench: 支持重置整个项目
 - [[`c2f0d79`](https://github.com/iTonyYo/flatten-folder/commit/c2f0d7902363da06c30e05ef33a4518c477f394a)] 配置: :wrench: 支持清理临时文件
-- [[`1b885a2`](https://github.com/iTonyYo/flatten-folder/commit/1b885a29287d4d9957372e6ac832a0967032ebf7)] 发版: :bookmark: v1.0.0
 - [[`c34b050`](https://github.com/iTonyYo/flatten-folder/commit/c34b05064f17a6954a24c7fe8c605356245b1a6c)] 配置: :wrench: 初始化代码质量检测环境
 - [[`83261f5`](https://github.com/iTonyYo/flatten-folder/commit/83261f56af10062a30508a3a1d14f8d1701857a6)] 文档: :memo: 增加对 `flattenFolder({from, to, exclude})` 方法的描述及其使用示例
 - [[`a2842b0`](https://github.com/iTonyYo/flatten-folder/commit/a2842b0121424beeeabf21d458e0eefe2782f08e)] 配置: :wrench: 初始化 CI 环境
