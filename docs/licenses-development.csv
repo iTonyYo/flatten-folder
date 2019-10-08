@@ -339,7 +339,7 @@
 "levn@0.3.0","MIT","https://github.com/gkz/levn"
 "license-checker@25.0.1","BSD-3-Clause","https://github.com/davglass/license-checker"
 "lines-and-columns@1.1.6","MIT","https://github.com/eventualbuddha/lines-and-columns"
-"lint-staged@9.4.1","MIT","https://github.com/okonet/lint-staged"
+"lint-staged@9.4.2","MIT","https://github.com/okonet/lint-staged"
 "listr-silent-renderer@1.1.1","MIT","https://github.com/SamVerschueren/listr-silent-renderer"
 "listr-update-renderer@0.5.0","MIT","https://github.com/SamVerschueren/listr-update-renderer"
 "listr-verbose-renderer@0.5.0","MIT","https://github.com/SamVerschueren/listr-verbose-renderer"
