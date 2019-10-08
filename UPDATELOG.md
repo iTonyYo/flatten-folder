@@ -1,12 +1,17 @@
 # [`flatten-folder`][flatten-folder] 更新日志
 
+## [v1.0.4](https://github.com/iTonyYo/flatten-folder/compare/v1.0.3...v1.0.4) - 2019-10-08
+
+#### 提交
+
+- [[`90ee2a7`](https://github.com/iTonyYo/flatten-folder/commit/90ee2a7086c4b2e4ca9e2895a19eab4ec948167e)] 依赖: :arrow_up: 升级依赖
+- [[`3f1ba5a`](https://github.com/iTonyYo/flatten-folder/commit/3f1ba5a60d876e0a80c000d4be87ad7222ae12f9)] 配置: :wrench: 避免将更新日志打包发布
 ## [v1.0.3](https://github.com/iTonyYo/flatten-folder/compare/v1.0.2...v1.0.3) - 2019-10-08
 
 #### 提交
 
 - [[`bb9a1e4`](https://github.com/iTonyYo/flatten-folder/commit/bb9a1e47e4f600c9be7bab3cac74fe6593a4ca52)] 依赖: :arrow_up: 升级依赖
 - [[`2d2b498`](https://github.com/iTonyYo/flatten-folder/commit/2d2b49874f8cbc3767d3f1906595bbbee0c168b1)] 依赖: :arrow_up: 升级依赖
-- [[`90ee2a7`](https://github.com/iTonyYo/flatten-folder/commit/90ee2a7086c4b2e4ca9e2895a19eab4ec948167e)] 依赖: :arrow_up: 升级依赖
 ## [v1.0.2](https://github.com/iTonyYo/flatten-folder/compare/v1.0.1...v1.0.2) - 2019-09-03
 
 #### 提交
