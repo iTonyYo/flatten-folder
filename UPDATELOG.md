@@ -1,5 +1,15 @@
 # [`flatten-folder`][flatten-folder] 更新日志
 
+## [v1.0.5](https://github.com/iTonyYo/flatten-folder/compare/v1.0.4...v1.0.5) - 2020-02-11
+
+#### 提交
+
+- [[`0e49bcf`](https://github.com/iTonyYo/flatten-folder/commit/0e49bcfdea388cda44ab6ec612ce09b3f2304d61)] 依赖: :arrow_up: 升级依赖
+- [[`68541c4`](https://github.com/iTonyYo/flatten-folder/commit/68541c4a3f5a4f2cecd10eb91bf2bb0f27c20956)] 依赖: :arrow_up: 升级依赖
+- [[`f98977b`](https://github.com/iTonyYo/flatten-folder/commit/f98977b1763ba7baf483df2413b889da49153546)] 文档: :memo: 添加 Git 提交指南
+- [[`5e46805`](https://github.com/iTonyYo/flatten-folder/commit/5e46805ed221fc91a5d6b012214904590534f4b8)] 配置: :wrench: 自定义 VSCode 配置
+- [[`f20f6dd`](https://github.com/iTonyYo/flatten-folder/commit/f20f6dddc88872e4b9c31ac143a82cd7a46985fa)] 工作流: :railway_track: 完善脚手架
+- [[`0690c38`](https://github.com/iTonyYo/flatten-folder/commit/0690c382814ff37a4026283b9df768d8e9609eb2)] 配置: :wrench: 完善更新日志模板
 ## [v1.0.4](https://github.com/iTonyYo/flatten-folder/compare/v1.0.3...v1.0.4) - 2019-10-08
 
 #### 提交
