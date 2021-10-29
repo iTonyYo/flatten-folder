@@ -1,5 +1,11 @@
 # [`flatten-folder`][flatten-folder] 更新日志
 
+## [v1.0.6](https://github.com/iTonyYo/flatten-folder/compare/v1.0.5...v1.0.6) - 2021-10-29
+
+#### 提交
+
+- [[`2546809`](https://github.com/iTonyYo/flatten-folder/commit/2546809e738b3df20bc812c133fdf01d9fe8fb9e)] 依赖: :arrow_up: 升级部分依赖
+- [[`47f698c`](https://github.com/iTonyYo/flatten-folder/commit/47f698cf661e6fb41ce721e41345045dd132ab90)] 修复: :bug: 没有正确引用 deep-scan-dir 模块
 ## [v1.0.5](https://github.com/iTonyYo/flatten-folder/compare/v1.0.4...v1.0.5) - 2020-02-11
 
 #### 提交
