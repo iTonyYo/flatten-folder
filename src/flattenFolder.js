@@ -4,7 +4,7 @@ import each from 'async/each';
 import moveFile from 'move-file';
 import trash from 'trash';
 
-import deepScanDir from 'deep-scan-dir/lib/deepScanDir';
+import deepScanDir from 'deep-scan-dir';
 
 async function main({ from = './', to = './', exclude = {} }) {
   const { files, dirs } = await deepScanDir({
